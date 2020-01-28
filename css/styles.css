@@ -318,7 +318,7 @@ article section .container {
     padding: 1em;
     margin-top: 0;
     color: white; 
-    margin: -1px;
+    margin: -2px;
 }
 
 #button {
@@ -420,6 +420,7 @@ article section .container {
 
 .owl-carousel a img {
     height: 190px;
+    width: 96%;
     background-size: cover;
 }
 
