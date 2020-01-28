@@ -1,0 +1,616 @@
+/* natural box model */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* UTILITIES */
+
+/* hides an element on screen, but not from screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* no break */
+.nobr {
+    white-space: nowrap;
+}
+
+/* NAV */
+.brand img {
+    width: 118px;
+    border: 1px dotted lightgrey;
+    box-shadow: 0 10px 8px -8px black;
+}
+
+/* HOME */
+
+:root {
+    --blue: url("http://html.sice.indiana.edu/~thetran/Project-Planning/images/webdesign/dust.png");
+    --orange: #BF702A;
+    --salmon: #BF755A;
+    --red: #BF3111;
+    --deepr: #591711;
+
+}
+
+main {
+    position: inherit;
+    z-index: -1;
+}
+
+body {
+    background: var(--blue);
+    font-family: 'Oswald', sans-serif;
+}
+
+.announcement {
+    text-align: center;
+    background: var(--red);
+    padding: 2px;
+    z-index: -1;
+    position: relative;
+    margin-top: 8em;
+}
+
+.announcement p {
+    font-size: 20px;
+}
+
+.description {
+    text-align: center;
+    background: var(--salmon);
+    padding: 2px;
+    z-index: -1;
+    margin-top: 2em;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.mission {
+    background: var(--orange);
+    text-align: center;
+    margin-top: 2em;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 5px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    display: block;
+    padding: 1em 10px;
+    background: var(--deepr);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+}
+
+footer a i {
+    color: var(--red);
+    padding: 25px 10px 25px 10px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+/* VOLUNTEER */
+
+#big {
+    width: inherit;
+    text-align: center;
+    
+}
+
+#big img {
+    width: 100%;
+    padding: 10px 0;
+}
+
+#small {
+    width: inherit;
+    text-align: center;
+}
+
+#small img {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.button {
+    background: var(--red);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.button:hover {
+    background: var(--salmon);
+}
+
+
+article section {
+    background: url("http://html.sice.indiana.edu/~thetran/Project-Planning/images/webdesign/IMG_0101.JPG") no-repeat left center fixed;
+    background-size: cover;
+}
+
+article section .container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+
+.branding-title {
+    width: 95%;
+    color: #ffffff;
+    text-align: center;
+    background: url("http://html.sice.indiana.edu/~thetran/Project-Planning/images/webdesign/wood_1/wood_1.png");
+    padding: 0.5em 1em 1.5em;
+    border-radius: 10px;
+    margin-top: 8em ;
+}
+.branding-title p {
+    padding: 10px;
+}
+
+.branding {
+    color: #ffffff;
+    text-align: center;
+    background: url("http://html.sice.indiana.edu/~thetran/Project-Planning/images/webdesign/wood_1/wood_1.png");
+    padding: 0.5em 1em 1.5em;
+    border-radius: 10px;
+    margin: 2em;
+    width: 300px;
+}
+
+.branding h1,
+.branding p {
+    text-shadow: 1px 1px 2px black;
+}
+
+.tagline {
+    margin: 0.5em 0 2.0em;
+    font-size: 14px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+    height: 54px;
+    line-height: 54px;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: var(--red);
+    text-align: center;
+    letter-spacing: .5px;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    outline: 0;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #ed344a;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    outline: 0;
+}
+
+/* MEMBERS */
+
+.members {
+    background: url("http://html.sice.indiana.edu/~thetran/Project-Planning/images/webdesign/IMG_0062.JPG") no-repeat left center fixed;
+    background-size: cover;
+}
+
+.members .info{
+    display: inline-block;
+    justify-content: center;
+    
+}
+
+.members .info article {
+    background: var(--orange);
+    padding: 2em;
+    text-align: center;
+    margin: 2em;
+    border-radius: 10px;
+}
+.members section article p {
+    font-size: 20px;
+}
+.members .basics article {
+    background: var(--salmon);
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.basics .button {
+    margin: 15px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.sltinterest {
+    color: #ffffff;
+    text-align: center;
+    background: url("http://html.sice.indiana.edu/~thetran/Project-Planning/images/webdesign/wood_1/wood_1.png");
+    margin: 2em;
+    padding: 1em 2em 2em;
+    border-radius: 10px;
+}
+
+
+
+/* SERVICE LEARNING TRIPS */
+.banner img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.slt-intro p{ 
+   font-size: 20px;
+   text-align: center;
+   line-height: 1.5em;
+   padding: 0 3em;
+}
+
+.slt-intro h1 {
+    background: var(--salmon);
+    text-align: center;
+    padding: 1em;
+    margin-top: 0;
+    color: white; 
+    margin: -1px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 2em 0;
+}
+
+.spring {
+    background: var(--orange);
+    text-align: center;
+    padding: 1em;
+    color: white; 
+    font-size: 20px;
+}
+
+.summer {
+    background: var(--red);
+    text-align: center;
+    padding: 1em;
+    color: white; 
+    font-size: 20px;
+}
+/* FUNDRAISING */
+
+.current, .archive {
+    text-align: center;
+}
+
+.current a img{
+    width: 200px;
+    padding: 10px 5px 5px 5px;
+}
+
+/* ALBUM */
+.loca-logo {
+    padding: 1em;
+    display: block;
+    width: 100%;
+}
+
+.loca-logo section a img {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    border: 2px solid var(--deepr);
+    width: 180px;
+}
+.loca-logo section {
+    width: 119px;
+   padding-bottom: 7px;
+   margin: 0 auto;
+}
+
+.loca-logo .button {
+    width: 180px;
+}
+.respondnav {
+    display: inline;
+}
+
+.riobamba2019 .owl-carousel{
+    background: var(--red);
+}
+
+.cusco2017 .owl-carousel{
+    background: var(--salmon);
+}
+
+.riobamba2019 {
+    padding: 2em 0;
+}
+.lima2019 {
+    padding: 2em 0;
+}
+.cusco2017 {
+    padding: 1em 0;
+}
+
+.owl-stage {
+    display: flex;
+}
+
+.owl-nav, .owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.5em;
+}
+
+.owl-dots {
+    padding: 1em;
+}
+
+
+.owl-carousel{
+    background: var(--orange);
+
+}
+
+
+.owl-carousel a img {
+    height: 190px;
+    background-size: cover;
+}
+
+figure img{
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+    width: inherit;
+    height: 167px;
+}
+
+figure {
+    width:250px;
+    margin: 1em;
+}
+
+figcaption {
+    background: white;
+    color: black;
+    border-radius: 0 0 20px 20px;
+    padding: 15px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.exec {display: flex;
+flex-flow: row wrap;
+margin-bottom: 3em;
+justify-content: center;}
+
+#exec {
+    text-align: center;
+    font-size: 40px;
+    background: var(--deepr);
+    color: white;
+    padding: 1em 0;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* CALENDAR */
+
+.calendar {
+    margin: 8em 0 6em;
+    display: flex;
+    justify-content: center;
+}
+
+.calendar iframe {
+    background: var(--orange);
+    padding: 2em;
+}
+/* MEDIA QUERIES */
+@media only screen and (min-width: 650px) {
+    .basics div{
+        display: flex;
+        justify-content: center;
+        margin: 15px 5em;
+    }
+    
+    .sltinterest {
+       margin: 2em 8em;
+    }
+} 
+
+/* MISC */
+
+.misc {
+    padding: 8em 0 3em 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1003px) {
+    .brand img {
+        width: 280px;
+    }
+    footer p {
+        padding: 0 2em;
+    }
+    .members .info{
+        margin-top: 8em;
+    }
+    .sltinterest {
+        margin: 2em 15em;
+       
+    }
+    .mem-alignment{
+        padding: 0 15em;
+    }
+    .volunteer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .banner img {
+        height: 350px;
+    }
+    .split {
+        display: flex;
+        flex-direction: row;
+    }
+    .half{
+        position: relative;
+        width: 50%;
+    }
+    .loca-logo {
+        padding-left: 2em;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .local-logo .button {
+        width: 100px;
+    }
+    
+    .loca-logo section a img {
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        border: 2px solid var(--deepr);
+        width: 180px;
+        
+        
+    }
+    .loca-logo section {
+        width: 180px;
+        padding-bottom: 10px;
+    }
+    .respondnav {
+        display: inline;
+    }
+
+    .riobamba2019 {
+        display: flex;
+        padding: 8em 0 0;
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .lima2019 {
+        display: flex;
+        width: 100%;
+    }
+
+    .cusco2017 {
+        display: flex;
+        width: 100%;
+        margin: 1em;
+    }
+    
+    .riobamba2019 .owl-carousel{
+        background: transparent;
+        width: 83%;
+    }
+
+    .lima2019 .owl-carousel{
+        background: transparent;
+        width: 83%;
+    }
+    
+    .cusco2017 .owl-carousel{
+        background: transparent;
+        width: 83%;
+    }
+    .owl-nav span {
+        font-size: 40px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .brand img {
+        width: 300px;
+    }
+    .sltinterest{
+        margin: 2em 25em;
+    }
+    .mem-alignment{
+        padding: 0 25em;
+    }
+}
+
+@media only screen and (max-width: 1202px) {
+    .announcement {
+        margin-top: 2em;
+    }
+    .branding-title {
+        margin-top: 2em;
+    }
+}

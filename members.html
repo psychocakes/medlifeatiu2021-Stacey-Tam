@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- resets browser defaults -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!--Google CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- custom styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="sass/styles.css">
+    <!-- Font Awesome - For use in I360 -->
+    <script src="https://kit.fontawesome.com/3680edfbdb.js" crossorigin="anonymous"></script>
+    <title>MEDLIFE AT IU</title>
+</head>
+
+<body>
+    <section class="navigation">
+        <div class="brand">
+            <a href="index.html"><img src="images/marketing/medlife_logo.jpg"></a>
+        </div>
+        <div class="nav-container">
+            <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="members.html">Members</a>
+                    </li>
+                    <li>
+                        <a href="#!">Volunteer</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="volunteer.html#big">Large Scale Volunteering</a>
+                            </li>
+                            <li>
+                                <a href="volunteer.html#small">Small Scale Volunteering</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="slt.html">Service Learning Trips</a>
+                    </li>
+                    <li>
+                        <a href="#!">Fundraising</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="fundraising.html#large">Small Fundraising Events</a>
+                            </li>
+                            <li>
+                                <a href="fundraising.html#mini">Large Fundraising Events</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="album.html">Album</a>
+                    </li>
+                    <li>
+                        <a href="calendar.html">Calendar</a>
+                    </li>
+                    <li>
+                        <a href="misc.html">Misc</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <main>
+        <div class="members">
+            <section class="info">
+                <div class="mem-alignment">
+                    <article>
+                        <h1>MEMBERSHIP ESSENTIALS</h1>
+                        <p>Interested on becoming a member? We have call-out meeting every semester, but you are welcome
+                            to join at any time. </p>
+                    </article>
+                </div>
+            </section>
+        
+            <section class="basics">
+                <article>
+                    <h2>Getting Started</h2>
+                    <p>Join our three main method of communication. Emails are sent weekly.</p>
+                    <p>The Announcement Groupme is only for the Exec board to communicate important imformation and
+                        events to the general body.<p>
+                            <p>The Social Groupme is for everyone to interact with other members.</p>
+                </article>
+                <div>
+                    <a href="https://wix.us11.list-manage.com/subscribe?u=487f63118571fb8a306f32c1f&id=3a03ca62fe"
+                        class="button">Join Email Listing</a>
+                    <a href="https://web.groupme.com/join_group/53441496/Le4Dz6ih" class="button">Join Announcement
+                        Groupme</a>
+                    <a href="https://web.groupme.com/join_group/53449009/54vKvdeY" class="button"> Join Social
+                        Groupme</a>
+                </div>
+
+            </section>
+            <section class="sltinterest">
+                <h2>Interested in Volunteering Abroad?</h2>
+                <a href="slt.html" class="button">Service Learning Trips</a>
+            </section>
+
+           
+        
+
+            <!-- Owl Carousel JS -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="plugins/owl/owl.carousel.min.js"></script>
+        
+                <footer>
+                    <section>
+
+                        <p>Director of Service Learning Trips | Olivia Reed | olireed@iu.edu</p>
+                        <p>Culture Chair | Andrea Monsivaus | amonsiva@iu.edu</p>
+                    </section>
+                    <section>
+                        <p>Director of Volunteering | Lauren Miro | lmiro@iu.edu</p>
+                        <p>Email: medlifeindianau@gmail.com </p>
+                    </section>
+                    <section>
+                        <h2 class="sr-only">Social Media</h2>
+                        <a href="https://www.facebook.com/medlifeiu/"><i class="fab fa-facebook fa-4x"></i></a>
+                        <a href="https://www.youtube.com/channel/UCB0yQXQnSmOqDrc2cG_5FJw/featured"><i
+                                class="fab fa-youtube fa-4x"></i></a>
+                        <a href="https://www.instagram.com/medlife.at.iu/?hl=en"><i
+                                class="fab fa-instagram fa-4x"></i></a>
+                    </section>
+                </footer>
+            </div>
+    </main>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsiveRefreshRate: 100,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>
