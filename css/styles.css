@@ -354,6 +354,7 @@ article section .container {
 }
 
 /* ALBUM */
+
 .loca-logo {
     padding: 1em;
     display: block;
@@ -381,10 +382,12 @@ article section .container {
 
 .riobamba2019 .owl-carousel{
     background: var(--red);
+    padding-top: 2em;
 }
 
 .cusco2017 .owl-carousel{
     background: var(--salmon);
+    padding-top: 2em;
 }
 
 .riobamba2019 {
@@ -414,7 +417,8 @@ article section .container {
 
 .owl-carousel{
     background: var(--orange);
-
+    padding-top: 2em;
+    overflow: hidden;
 }
 
 
@@ -422,6 +426,7 @@ article section .container {
     height: 190px;
     width: 96%;
     background-size: cover;
+    
 }
 
 figure img{
@@ -467,6 +472,7 @@ justify-content: center;}
     margin: 8em 0 6em;
     display: flex;
     justify-content: center;
+    background-size: cover;
 }
 
 .calendar iframe {
@@ -492,6 +498,11 @@ justify-content: center;}
     padding: 8em 0 3em 0;
     display: flex;
     justify-content: center;
+}
+
+.miscmain {
+    display: inline-block;
+    width: 100%;
 }
 
 @media only screen and (min-width: 1003px) {
@@ -545,7 +556,6 @@ justify-content: center;}
         border-radius: 50%;
         border: 2px solid var(--deepr);
         width: 180px;
-        
         
     }
     .loca-logo section {
