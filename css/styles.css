@@ -359,6 +359,7 @@ article section .container {
     padding: 1em;
     display: block;
     width: 100%;
+    
 }
 
 .loca-logo section a img {
@@ -376,6 +377,8 @@ article section .container {
 .loca-logo .button {
     width: 180px;
 }
+
+
 .respondnav {
     display: inline;
 }
@@ -397,7 +400,9 @@ article section .container {
     padding: 2em 0;
 }
 .cusco2017 {
-    padding: 1em 0;
+   
+    padding: 4em 0;
+    margin: -10px;
 }
 
 .owl-stage {
@@ -426,8 +431,10 @@ article section .container {
     height: 190px;
     width: 96%;
     background-size: cover;
-    
+   
 }
+
+
 
 figure img{
     border-radius: 20px 20px 0 0;
@@ -581,7 +588,6 @@ justify-content: center;}
     .cusco2017 {
         display: flex;
         width: 100%;
-        margin: 1em;
     }
     
     .riobamba2019 .owl-carousel{
