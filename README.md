@@ -1,6 +1,7 @@
 # Reference
 This is a personal project started by the 2019-2020 Director of Technology, Therisa Tran. 
-I created this github as a backup for future executive members that will inherit my work.
+I created this github as a backup for future executive members that will inherit my work. 
+I want the next Tech Chair to be comfortable with making changes, implement their creativity, and learn basic web develop once retiring form this position.
 I purposely left some areas not completely filled with content to teach the next Tech Chair an opportunity to work with the website.
 
 ### About the Website
