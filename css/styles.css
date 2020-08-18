@@ -344,8 +344,10 @@ article section .container {
 }
 /* FUNDRAISING */
 
-.current, .archive {
+.current {
+    
     text-align: center;
+    padding-top: 6em;
 }
 
 .current a img{
