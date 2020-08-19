@@ -352,8 +352,28 @@ article section .container {
 
 .current a img{
     width: 200px;
-    padding: 10px 5px 5px 5px;
+    padding: 10px 5px 5px 5px; 
+    
 }
+.current .info {
+text-align: center;
+    background: var(--salmon);
+    padding: 2px;
+    z-index: -1;
+    position: relative;
+    margin-top: 1em;
+}
+.button2 {
+    background: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.button2:hover {
+    background: green;
+}
+
 
 /* ALBUM */
 
