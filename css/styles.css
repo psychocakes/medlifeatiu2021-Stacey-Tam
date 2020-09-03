@@ -60,7 +60,6 @@ body {
     text-align: center;
     background: var(--red);
     padding: 2px;
-    z-index: -1;
     position: relative;
     margin-top: 5em;
 }
