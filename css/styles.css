@@ -58,9 +58,9 @@ body {
 
 .announcement {
     text-align: center;
-    background: var(--red);
+    background: var(--salmon);
     padding: 2px;
-    position: relative;
+    z-index: -1;;
     margin-top: 5em;
 }
 
