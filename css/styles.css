@@ -61,7 +61,7 @@ body {
     background: var(--salmon);
     padding: 2px;
     z-index: -1;;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .announcement p {
