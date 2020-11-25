@@ -346,7 +346,7 @@ article section .container {
 .current {
     
     text-align: center;
-    padding-top: 6em;
+    padding-top: 2em;
 }
 
 .current a img{
@@ -356,7 +356,7 @@ article section .container {
 }
 .current .info {
 text-align: center;
-    background: var(--salmon);
+    background: var(--orange);
     padding: 2px;
     z-index: -1;
     position: relative;
@@ -373,6 +373,68 @@ text-align: center;
     background: green;
 }
 
+.fundraiser1 {
+    text-align:center;
+        background-image: url(/images/webdesign/AdoptAFamilyBackground.JPG);
+        padding: 2px;
+        z-index:0;
+        position: relative;
+        margin-top: 1em;
+}
+.fundraiser1 .info{
+    display: inline-block;
+        margin: auto;
+        width: 50%;
+}
+
+.fundraiser1 .info article {
+    background: rgb(221, 132, 105);
+    padding: 1em;
+    text-align: center;
+    margin: 2em;
+    border-radius: 10px;
+}
+.fundraiser2 {
+text-align:center;
+    background-image: url(/images/webdesign/Mask\ Background\ .JPG);
+    padding: 2px;
+    z-index:0;
+    position: relative;
+    margin-top: 1em;
+}
+.fundraiser2 .info{
+    display: inline-block;
+        margin: auto;
+        width: 50%;
+}
+
+.fundraiser2 .info article {
+    background:lightsteelblue;
+    padding: 1em;
+    text-align: center;
+    margin: 2em;
+    border-radius: 10px;
+}
+.GiveLively {
+text-align:center;
+    background-image: url(/images/webdesign/GiveLivelyBackground.JPG);
+    padding: 2px;
+    z-index:0;
+    position: relative;
+    margin-top: 1em;
+}
+.GiveLively .info {
+display: inline-block;
+        margin: auto;
+        width: 50%;
+}
+.GiveLively .info article {
+    background:lightyellow;
+    padding: 1em;
+    text-align: center;
+    margin: 2em;
+    border-radius: 10px;
+}
 
 /* ALBUM */
 
