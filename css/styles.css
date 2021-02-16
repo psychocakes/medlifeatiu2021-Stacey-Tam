@@ -642,9 +642,20 @@ justify-content: center;}
         display:flex; 
         flex-direction: row;
     }
+    .backdrop {
+        position: absolute;
+        width: 100%;
+    }
     .half{
         position: relative;
+        
         width: 50%;
+    }
+    .half2{
+        position: relative;
+        
+        width: 50%;
+
     }
     .loca-logo {
         padding-left: 2em;
