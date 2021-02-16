@@ -319,14 +319,21 @@ article section .container {
     color: white; 
     margin: -2px;
 }
-
+.slt-intro h3 {
+    background: var(--red);
+    text-align: center;
+    padding: 1em;
+    margin-top: 0;
+    color: white; 
+    margin: -2px;
+}
 #button {
     display: flex;
     justify-content: center;
-    padding: 1em 0 2em 0;
+    padding: 0 2em 0;
 }
 
-.spring {
+.virtual1 {
     background: var(--orange);
     text-align: center;
     padding: 1em;
@@ -334,7 +341,7 @@ article section .container {
     font-size: 20px;
 }
 
-.summer {
+.virtual2 {
     background: var(--orange);
     text-align: center;
     padding: 1em;
@@ -632,7 +639,7 @@ justify-content: center;}
         height: 350px;
     }
     .split {
-        display: flex;
+        display:flex; 
         flex-direction: row;
     }
     .half{
