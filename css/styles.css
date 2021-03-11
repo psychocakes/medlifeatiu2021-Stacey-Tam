@@ -382,7 +382,7 @@ text-align: center;
 
 .fundraiser1 {
     text-align:center;
-        background-image: url(/images/webdesign/AdoptAFamilyBackground.JPG);
+        background-image: url(/images/webdesign/Race\ Flyer.JPG);
         padding: 2px;
         z-index:0;
         position: relative;
@@ -395,7 +395,7 @@ text-align: center;
 }
 
 .fundraiser1 .info article {
-    background: rgb(221, 132, 105);
+    background: rgb(233, 186, 85);
     padding: 1em;
     text-align: center;
     margin: 2em;
