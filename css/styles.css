@@ -604,7 +604,43 @@ justify-content: center;}
     display: inline-block;
     width: 100%;
 }
+.execapp {
+    text-align:center;
+        
+        background: url("/images/riobamba2019/IMG_0309.JPG") no-repeat left center fixed;
+         background-size: cover;
+        margin-top: 0em;
+        padding: 180px;
+        padding-top: 190px;
+        padding-bottom: 190px;
+        
+        
+}
+.execapp .info{
+    display: inline-block;
+        margin: auto;
+        width: 80%;
+       z-index: 0; 
+}
 
+.execapp .info article {
+    background: rgb(241, 235, 233);
+    padding: 1em;
+    text-align: center;
+    margin: 2em;
+    border-radius: 10px;
+    z-index: 0;
+}
+.button3 {
+    background: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.button3:hover {
+    background: blue;
+}
 #center {
     display: flex;
     justify-content: center;
